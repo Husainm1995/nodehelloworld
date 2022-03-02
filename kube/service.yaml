@@ -11,6 +11,6 @@ spec:
   - port: 8081
     protocol: TCP
     targetPort: 3000
-    nodePort: 32121
+    # nodePort: 32121
   selector:
     app: helloworld
