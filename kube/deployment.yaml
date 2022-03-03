@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: helloworld
-          image: husainm/nodehelloworld:1
+          image: husainm/nodehelloworld:latest
           imagePullPolicy: "Always"
           ports:
             - containerPort: 3000
